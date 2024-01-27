@@ -5,7 +5,7 @@ let gl;
 let shaderProgram;
 let rays;
 
-let originalCubeSize = 1;
+let originalCubeSize = 0.2;
 let currentCubeSize = originalCubeSize;
 
 function initWebGL(canvas) {
